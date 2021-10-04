@@ -1,0 +1,8 @@
+// To set the leds on use GPIOE (0x48001000)
+// register BSRR whic is GPIOE + BSRR = 0x48001018
+// 0x48001018 first 0-15 bits are to set the pin on
+// 0x48001018 16-31 is bits for reset of pin
+// use ptr::write_volatile to prevent the code from being optimized
+
+// Use itmdump -F -f itm.txt and gdb in /tmp to debug print
+//

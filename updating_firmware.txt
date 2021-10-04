@@ -1,0 +1,107 @@
+#same directory
+itmdump -F -f itm.txt
+openocd -f interface/stlink-v2-1.cfg -f target/stm32f3x.cfg
+
+//In seperate terminal:
+gdb-multiarch -q -ex "target remote :3333" target/thumbv7em-none-eabihf/debug/led-roulette
+
+// Then type in into gdb:
+monitor reset halt 
+
+
+//The prievous step was just setting things up 
+//If config.toml is set up right. running cargo run will just start gdp.
+//IF it does work then run these while openocd is running
+target remote :3333  //Connects to remote channel
+load		     // loadcs the source code into the board. FLASHES IT
+
+
+// DEBUG
+
+//Interested in main function
+break main
+
+// COntinue lets the program run freely until it reaches endpoint
+continue
+
+// See assembly code for the step or whatever
+disassemble /m
+
+//Step to go to next step but not execute it
+step
+
+// Use these to know the values of variables or use info locals better
+(gdb) print x
+$1 = 42
+(gdb) p &x
+$2 = (*mut i32) 0x20009fe0
+(gdb) p _y
+$3 = 536870912
+(gdb) p &_y
+$4 = (*mut i32) 0x20009fe4
+
+// WIll et stuck on loop use ctrl+c to unstuck yourself
+
+// Monitor reset halt will reset the application
+
+
+// Make it pretty 
+(gdb) layout src
+(gdb) layout asm
+(gdb) layout split
+
+(gdb) tui disable // To leave the mode
+
+// QUick succession
+$ cargo run
+(gdb) target remote :3333
+(gdb) load
+(gdb) set print asm-demangle on
+(gdb) set style sources off
+(gdb) break main
+(gdb) continue
+
+cargo run -- -q -ex 'target remote :3333' -ex 'load' -ex 'set print asm-demangle on' -ex 'set style sources off' -ex 'b main' -ex 'c' target/thumbv7em-none-eabihf/debug/led-roulette
+
+
+
+
+
+$ cargo run --target thumbv7em-none-eabihf   # Compile and load the program into gdb
+(gdb) target remote :3333           # Connect to STM32F3DISCOVERY board from PC
+(gdb) load                          # Flash program
+(gdb) break main.rs:16              # Set breakpoint 1 at top of loop
+(gdb) continue                      # Continue, will stop at main.rs:16
+(gdb) disable 1                     # Disable breakpoint 1
+(gdb) set print asm-demangle on     # Enable asm-demangle
+(gdb) disassemble /m                # Disassemble main function
+(gdb) continue                      # Led blinking on for 1/2 sec then off 1/2 sec
+^C                                  # Stop with Ctrl+C
+(gdb) enable 1                      # Enable breakpiont 1
+(gdb) continue                      # Continue, will stop at main.rs:16
+(gdb) print half_period             # Print half_period result is 500
+(gdb) set half_period = 2000        # Set half_period to 2000ms
+(gdb) print half_period             # Print half_period and result is 2000
+(gdb) disable 1                     # Disable breakpoint 1
+(gdb) continue                      # Led blinking on for 2 secs then off 2 sec
+^C                                  # Stop with Ctrl+C
+(gdb) quit                          # Quit gdb
+
+
+
+
+
+
+
+//Make sure to run the realease version
+cargo build --target thumbv7em-none-eabihf --release
+cargo run --target thumbv7em-none-eabihf --release
+
+
+// Size of binary dev
+cargo size --target thumbv7em-none-eabihf --bin led-roulette -- -A 	
+
+// Size of binary release
+cargo size --target thumbv7em-none-eabihf --bin led-roulette --release -- -A
+
+
