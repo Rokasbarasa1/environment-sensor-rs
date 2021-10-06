@@ -51,9 +51,12 @@ fn main() -> ! {
 // light sensor goes from 3700 adc to 4080
 // Lower value after map means the room is brighter
 fn map_adc_light_percent(data: u16) -> u16{
-
-    let difference: u16 = 4096 as u16 - data;
-    let result: u16 = 100 - (difference * 100 / 396);
-
-    return result;
+    if data > 4095 || data < 3700{
+        return 0;
+    }else{
+        let difference: u16 = 4096 as u16 - data;
+        let result: u16 = 100 - (difference * 100 / 396);
+    
+        return result;
+    }
 }
