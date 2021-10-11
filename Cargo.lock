@@ -184,6 +184,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "dht-sensor"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "74d643854f324f02daea7153ebbfec5cfcc2f395faf1c7011be65e543570de28"
+dependencies = [
+ "embedded-hal",
+]
+
+[[package]]
 name = "embedded-dma"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -276,13 +285,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "lcd1602"
+version = "0.1.0"
+dependencies = [
+ "embedded-hal",
+ "embedded-time",
+ "nb 1.0.0",
+]
+
+[[package]]
 name = "led-roulette"
 version = "0.1.0"
 dependencies = [
  "cortex-m 0.6.7",
  "cortex-m-rt",
  "cortex-m-semihosting",
+ "dht-sensor",
+ "embedded-hal",
  "f3",
+ "lcd1602",
+ "numtoa",
  "panic-itm",
  "stm32f3-discovery",
  "stm32f3xx-hal 0.8.0",
@@ -385,6 +407,12 @@ checksum = "9a64b1ec5cda2586e284722486d802acf1f7dbdc623e2bfc57e65ca1cd099290"
 dependencies = [
  "autocfg",
 ]
+
+[[package]]
+name = "numtoa"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6aa2c4e539b869820a2b82e1aef6ff40aa85e65decdd5185e83fb4b1249cd00f"
 
 [[package]]
 name = "panic-itm"
