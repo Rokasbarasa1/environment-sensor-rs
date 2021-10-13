@@ -8,7 +8,6 @@ use stm32f3xx_hal::{self as hal, pac, prelude::*, adc, timer::Timer };
 use numtoa::{self, NumToA};
 use lcd1602::LCD1602;
 use dht_sensor::*;
-// use dht11::Dht11;
 
 //FREE IO 
 // A 1-4, 8-10, 15
@@ -41,8 +40,8 @@ fn main() -> ! {
     let mut gpioa = dp.GPIOA.split(&mut rcc.ahb);
     let mut gpiod = dp.GPIOD.split(&mut rcc.ahb);
 
-    let mut pin1 = gpioa.pa1.into_analog(&mut gpioa.moder, &mut gpioa.pupdr);
-    let mut pin2 = gpioa.pa2.into_open_drain_output(&mut gpioa.moder, &mut gpioa.otyper);
+    let mut pa1 = gpioa.pa1.into_analog(&mut gpioa.moder, &mut gpioa.pupdr);
+    let mut pa2 = gpioa.pa2.into_open_drain_output(&mut gpioa.moder, &mut gpioa.otyper);
 
     let mut temperature_level: i8 = 0;
     let mut light_level: u16 = 0;
@@ -50,15 +49,16 @@ fn main() -> ! {
 
 
     // Init pins
-    let mut rs = gpiod.pd1.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
-    let mut en = gpiod.pd2.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
-    let mut d4 = gpiod.pd3.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
-    let mut d5 = gpiod.pd4.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
-    let mut d6 = gpiod.pd5.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
-    let mut d7 = gpiod.pd6.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
-    let mut timer = Timer::new(dp.TIM6, clocks, &mut rcc.apb1);
+    let rs = gpiod.pd1.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let en = gpiod.pd2.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let d4 = gpiod.pd3.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let d5 = gpiod.pd4.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let d6 = gpiod.pd5.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let d7 = gpiod.pd6.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let timer = Timer::new(dp.TIM6, clocks, &mut rcc.apb1);
     
     let mut lcd = LCD1602::new(en, rs, d4, d5, d6, d7, timer).unwrap();
+    lcd.clear();
 
     {
         let mut delay = hal::delay::Delay::new(cp.SYST, clocks);
@@ -69,14 +69,12 @@ fn main() -> ! {
     loop {
 
         let mut delay = hal::delay::Delay::new(cp.SYST, clocks);
-        match dht11::Reading::read(&mut delay, &mut pin2) {
+        match dht11::Reading::read(&mut delay, &mut pa2) {
             Ok(dht11::Reading {
                 temperature,
                 relative_humidity,
             }) => {
                 cp.SYST = delay.free();
-                iprintln!(&mut cp.ITM.stim[0], "Temp: {}", temperature );
-                iprintln!(&mut cp.ITM.stim[0], "Humidity: {}", relative_humidity );
                 temperature_level = temperature;
                 humidity_level = relative_humidity;
             },
@@ -86,9 +84,13 @@ fn main() -> ! {
             },
         }
 
-        let pin1_data: u16 = adc1.read(&mut pin1).expect("Error reading adc1.");
-        light_level = map_adc_light_percent(pin1_data);
+        let pa1_data: u16 = adc1.read(&mut pa1).expect("Error reading adc1.");
+        light_level = map_adc_light_percent(pa1_data);
+
+        iprintln!(&mut cp.ITM.stim[0], " " );
         iprintln!(&mut cp.ITM.stim[0], "Light: {}", light_level );
+        iprintln!(&mut cp.ITM.stim[0], "Temps: {}", temperature_level );
+        iprintln!(&mut cp.ITM.stim[0], "Humid: {}", humidity_level );
 
         //Show user feedback
         lcd.clear();
@@ -99,19 +101,24 @@ fn main() -> ! {
         lcd.print(" H:");
         lcd.print(humidity_level.numtoa_str(10, &mut buf));
 
-        
         asm::delay(10_000_000);
     }
 }
 
-// light sensor goes from 3700 adc to 4080
+// light sensor goes from 830 adc to 4080
 // Lower value after map means the room is brighter
 fn map_adc_light_percent(data: u16) -> u16{
-    if data > 4095 || data < 3700{
+    let lower_bound = 800;
+    let higher_bound = 4095;
+
+    if data < lower_bound{
+        return 100;
+    }else if data > higher_bound{
         return 0;
     }else{
         let difference: u16 = 4096 as u16 - data;
-        let result: u16 = 100 - (difference * 100 / 396);
+        let scale: u32 = difference as u32 * 100;
+        let result: u16 = (scale / (higher_bound - lower_bound) as u32) as u16;
         return result;
     }
 }

@@ -104,21 +104,28 @@ where
         Ok(())
     }
 
+    pub fn next_line(&mut self) -> Result<(), Error<E>> {
+        self.rs.set_low()?;
+        self.en.set_low()?;
+        self.command(0x0C)?;
+        self.char_count = 0;
+        self.delay(1530)
+    }
     //Will not print characters if too many
     pub fn print(&mut self, s: &str) -> Result<(), Error<E>> {
-        if self.char_count != 16 {
+        // if self.char_count != 16 {
             for ch in s.chars() {
-                if self.char_count == 7{
-                    //New line
-                }else if self.char_count == 16 {
-                    break;
-                }
+                // if self.char_count == 7{
+                //     self.next_line();
+                // }else if self.char_count == 16 {
+                //     break;
+                // }
 
                 self.delay(320)?; // per char delay
                 self.write_char(ch as u8)?;
-                self.char_count = self.char_count + 1;
+                // self.char_count = self.char_count + 1;
             }
-        }
+        // }
         
         Ok(())
     }
