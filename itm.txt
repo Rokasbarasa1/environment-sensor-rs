@@ -53702,3 +53702,3910 @@
 Light: 23
 Temps: 19
 Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 25
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 89
+ 
+Light: 25
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 25
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 22
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 16
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 23
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 22
+Temps: 19
+Humid: 91
+ 
+Light: 22
+Temps: 19
+Humid: 92
+ 
+Light: 22
+Temps: 19
+Humid: 91
+ 
+Light: 22
+Temps: 19
+Humid: 91
+ 
+Light: 21
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 22
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 22
+Temps: 19
+Humid: 90
+ 
+Light: 22
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 21
+Temps: 19
+Humid: 90
+ 
+Light: 22
+Temps: 19
+Humid: 90
+ 
+Light: 21
+Temps: 19
+Humid: 91
+ 
+Light: 21
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 21
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 18
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 23
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 23
+Temps: 19
+Humid: 91
+ 
+Light: 22
+Temps: 19
+Humid: 91
+ 
+Light: 22
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 22
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 22
+Temps: 19
+Humid: 89
+ 
+Light: 21
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 22
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 24
+Temps: 19
+Humid: 89
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 23
+Temps: 19
+Humid: 89
+ 
+Light: 25
+Temps: 19
+Humid: 89
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 24
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 90
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 24
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 91
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 22
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 92
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 22
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+Error
+ 
+Light: 24
+Temps: 0
+Humid: 0
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 92
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+Error
+ 
+Light: 24
+Temps: 0
+Humid: 0
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 25
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+Error
+ 
+Light: 24
+Temps: 0
+Humid: 0
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 22
+Temps: 18
+Humid: 93
+ 
+Light: 21
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+Error
+ 
+Light: 22
+Temps: 0
+Humid: 0
+ 
+Light: 22
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 22
+Temps: 18
+Humid: 93
+ 
+Light: 24
+Temps: 18
+Humid: 93
+ 
+Light: 16
+Temps: 18
+Humid: 93
+ 
+Light: 23
+Temps: 18
+Humid: 93
+ 
+Light: 21
+Temps: 19
+Humid: 93
+Error
+ 
+Light: 22
+Temps: 0
+Humid: 0
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 23
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+Error
+ 
+Light: 21
+Temps: 0
+Humid: 0
+ 
+Light: 21
+Temps: 19
+Humid: 93
+ 
+Light: 22
+Temps: 19
+Humid: 93
+ 
+Light: 21
+Temps: 19
+Humid: 93
+ 
+Light: 22
+Temps: 19
+Humid: 93
+ 
+Light: 18
+Temps: 19
+Humid: 93
+ 
+Light: 23
+Temps: 19
+Humid: 93
+Error
+ 
+Light: 23
+Temps: 0
+Humid: 0
+ 
+Light: 23
+Temps: 19
+Humid: 93
+ 
+Light: 23
+Temps: 19
+Humid: 93
+ 
+Light: 23
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93

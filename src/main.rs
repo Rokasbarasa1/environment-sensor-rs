@@ -59,6 +59,9 @@ fn main() -> ! {
     let mut stepper_count: i8 = 0;
     let mut clockwise = true;
 
+    //init servo motor 
+    let mut pd13 = gpiod.pd13.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+
     // Init lcd pins
     let rs = gpiod.pd1.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let en = gpiod.pd2.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
@@ -87,6 +90,13 @@ fn main() -> ! {
                 stepper_count = spin_stepper(stepper_count, clockwise, &mut pd11_1, &mut pd10_2, &mut pd9_3, &mut pd8_4);
                 delay.delay_ms(2 as u8);
             }
+
+            spin_servo(&mut pd13, 90, &mut delay);
+            delay.delay_ms(1000 as u16);
+            spin_servo(&mut pd13, 0, &mut delay);
+            delay.delay_ms(1000 as u16);
+            spin_servo(&mut pd13, 180, &mut delay);
+            delay.delay_ms(1000 as u16);
 
             match dht11::Reading::read(&mut delay, &mut pa2) {
                 Ok(dht11::Reading {
@@ -155,8 +165,8 @@ fn spin_stepper(
     pin1: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<11_u8>, Output<PushPull>>, 
     pin2: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<10_u8>, Output<PushPull>>, 
     pin3: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<9_u8>, Output<PushPull>>, 
-    pin4: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<8_u8>, Output<PushPull>>) -> i8
-{
+    pin4: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<8_u8>, Output<PushPull>>
+) -> i8 {
     let mut step = current_step;
     if clockwise {
         step = step - 1;
@@ -199,4 +209,33 @@ fn spin_stepper(
     }
 
     return step
+}
+
+fn spin_servo(
+    pin: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<13_u8>, Output<PushPull>>, 
+    degrees: u8,
+    delay: &mut stm32f3xx_hal::delay::Delay
+){
+    match degrees{
+        0 => {
+            pin.set_high();
+            delay.delay_us(600 as u32);
+            pin.set_low();
+            delay.delay_us(18550 as u32);
+
+        },
+        90 => {
+            pin.set_high();
+            delay.delay_us(1450 as u32);
+            pin.set_low();
+            delay.delay_us(18550 as u32);
+        },
+        180 => {
+            pin.set_high();
+            delay.delay_us(2300 as u32);
+            pin.set_low();
+            delay.delay_us(18550 as u32);
+        },
+        _ => {}
+    }
 }
