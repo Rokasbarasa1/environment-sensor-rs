@@ -187,6 +187,7 @@ dependencies = [
  "cortex-m 0.6.7",
  "cortex-m-rt",
  "dht-sensor",
+ "embedded-hal",
  "lcd1602",
  "numtoa",
  "panic-itm",

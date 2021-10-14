@@ -12,3 +12,4 @@ stm32f3xx-hal = { version = "0.8.0", features = ["ld", "rt", "stm32f303xc"] }
 lcd1602 = { path = "lcd1602" }
 numtoa = "0.2.4"
 dht-sensor = "0.2.1"
+embedded-hal = "0.2.6"

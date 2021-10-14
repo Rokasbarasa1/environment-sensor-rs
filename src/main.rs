@@ -3,11 +3,13 @@
 
 use cortex_m::{iprintln, asm};
 use cortex_m_rt::entry;
+use hal::gpio::{Gpiod, Output, PushPull, U};
 use panic_itm as _;
 use stm32f3xx_hal::{self as hal, pac, prelude::*, adc, timer::Timer };
 use numtoa::{self, NumToA};
 use lcd1602::LCD1602;
 use dht_sensor::*;
+use embedded_hal::digital::v2::OutputPin;
 
 //FREE IO 
 // A 1-4, 8-10, 15
@@ -21,6 +23,8 @@ use dht_sensor::*;
 // 0 -> 0 mV
 // 2048 -> 1500 mV
 // 4095 -> 3000 mV
+
+
 
 #[entry]
 fn main() -> ! {
@@ -47,18 +51,25 @@ fn main() -> ! {
     let mut light_level: u16 = 0;
     let mut humidity_level: u8 = 0;
 
+    // Init stepper motor 
+    let mut pd11_1 = gpiod.pd11.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let mut pd10_2 = gpiod.pd10.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let mut pd9_3 = gpiod.pd9.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let mut pd8_4 = gpiod.pd8.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    let mut stepper_count: i8 = 0;
+    let mut clockwise = true;
 
-    // Init pins
+    // Init lcd pins
     let rs = gpiod.pd1.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let en = gpiod.pd2.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let d4 = gpiod.pd3.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let d5 = gpiod.pd4.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let d6 = gpiod.pd5.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let d7 = gpiod.pd6.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
+    
     let timer = Timer::new(dp.TIM6, clocks, &mut rcc.apb1);
     
     let mut lcd = LCD1602::new(en, rs, d4, d5, d6, d7, timer).unwrap();
-    lcd.clear();
 
     {
         let mut delay = hal::delay::Delay::new(cp.SYST, clocks);
@@ -68,39 +79,53 @@ fn main() -> ! {
 
     loop {
 
-        let mut delay = hal::delay::Delay::new(cp.SYST, clocks);
-        match dht11::Reading::read(&mut delay, &mut pa2) {
-            Ok(dht11::Reading {
-                temperature,
-                relative_humidity,
-            }) => {
-                cp.SYST = delay.free();
-                temperature_level = temperature;
-                humidity_level = relative_humidity;
-            },
-            Err(e) => {
-                cp.SYST = delay.free();
-                iprintln!(&mut cp.ITM.stim[0], "Error" );
-            },
+        //Interacting with components
+        {
+            let mut delay = hal::delay::Delay::new(cp.SYST, clocks);
+
+            for i in 0..2048 {
+                stepper_count = spin_stepper(stepper_count, clockwise, &mut pd11_1, &mut pd10_2, &mut pd9_3, &mut pd8_4);
+                delay.delay_ms(2 as u8);
+            }
+
+            match dht11::Reading::read(&mut delay, &mut pa2) {
+                Ok(dht11::Reading {
+                    temperature,
+                    relative_humidity,
+                }) => {
+                    cp.SYST = delay.free();
+                    temperature_level = temperature;
+                    humidity_level = relative_humidity;
+                },
+                Err(e) => {
+                    cp.SYST = delay.free();
+                    iprintln!(&mut cp.ITM.stim[0], "Error" );
+                },
+            }
+    
+            let pa1_data: u16 = adc1.read(&mut pa1).expect("Error reading adc1.");
+            light_level = map_adc_light_percent(pa1_data);
+    
+
         }
 
-        let pa1_data: u16 = adc1.read(&mut pa1).expect("Error reading adc1.");
-        light_level = map_adc_light_percent(pa1_data);
-
-        iprintln!(&mut cp.ITM.stim[0], " " );
-        iprintln!(&mut cp.ITM.stim[0], "Light: {}", light_level );
-        iprintln!(&mut cp.ITM.stim[0], "Temps: {}", temperature_level );
-        iprintln!(&mut cp.ITM.stim[0], "Humid: {}", humidity_level );
-
-        //Show user feedback
-        lcd.clear();
-        lcd.print("L:");
-        lcd.print(light_level.numtoa_str(10, &mut buf));
-        lcd.print(" T:");
-        lcd.print(temperature_level.numtoa_str(10, &mut buf));
-        lcd.print(" H:");
-        lcd.print(humidity_level.numtoa_str(10, &mut buf));
-
+        //Showing user feedback
+        {
+            iprintln!(&mut cp.ITM.stim[0], " " );
+            iprintln!(&mut cp.ITM.stim[0], "Light: {}", light_level );
+            iprintln!(&mut cp.ITM.stim[0], "Temps: {}", temperature_level );
+            iprintln!(&mut cp.ITM.stim[0], "Humid: {}", humidity_level );
+    
+            lcd.clear();
+            lcd.print("L:");
+            lcd.print(light_level.numtoa_str(10, &mut buf));
+            lcd.print(" T:");
+            lcd.print(temperature_level.numtoa_str(10, &mut buf));
+            lcd.print(" H:");
+            lcd.print(humidity_level.numtoa_str(10, &mut buf));
+        }
+        
+        
         asm::delay(10_000_000);
     }
 }
@@ -121,4 +146,57 @@ fn map_adc_light_percent(data: u16) -> u16{
         let result: u16 = (scale / (higher_bound - lower_bound) as u32) as u16;
         return result;
     }
+}
+
+
+fn spin_stepper(
+    current_step: i8, 
+    clockwise: bool,
+    pin1: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<11_u8>, Output<PushPull>>, 
+    pin2: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<10_u8>, Output<PushPull>>, 
+    pin3: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<9_u8>, Output<PushPull>>, 
+    pin4: &mut stm32f3xx_hal::gpio::Pin<Gpiod, U<8_u8>, Output<PushPull>>) -> i8
+{
+    let mut step = current_step;
+    if clockwise {
+        step = step - 1;
+    }else{
+        step = step + 1;
+    }
+
+    if step == -1{
+        step = 3;
+    }else if step == 4{
+        step = 0;
+    }
+
+    match step{
+        0 => {
+            pin1.set_high();
+            pin2.set_low();
+            pin3.set_low();
+            pin4.set_low();
+        },
+        1 => {
+            pin1.set_low();
+            pin2.set_high();
+            pin3.set_low();
+            pin4.set_low();
+        },
+        2 => {
+            pin1.set_low();
+            pin2.set_low();
+            pin3.set_high();
+            pin4.set_low();
+        },
+        3 => {
+            pin1.set_low();
+            pin2.set_low();
+            pin3.set_low();
+            pin4.set_high();
+        },
+        _ => {}
+    }
+
+    return step
 }
