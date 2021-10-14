@@ -62,6 +62,10 @@ fn main() -> ! {
     //init servo motor 
     let mut pd13 = gpiod.pd13.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
 
+    //init motion sensor
+    let mut pd12 = gpiod.pd12.into_input(&mut gpiod.moder);
+
+
     // Init lcd pins
     let rs = gpiod.pd1.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
     let en = gpiod.pd2.into_push_pull_output(&mut gpiod.moder, &mut gpiod.otyper);
@@ -90,13 +94,15 @@ fn main() -> ! {
                 stepper_count = spin_stepper(stepper_count, clockwise, &mut pd11_1, &mut pd10_2, &mut pd9_3, &mut pd8_4);
                 delay.delay_ms(2 as u8);
             }
-
-            spin_servo(&mut pd13, 90, &mut delay);
-            delay.delay_ms(1000 as u16);
-            spin_servo(&mut pd13, 0, &mut delay);
-            delay.delay_ms(1000 as u16);
-            spin_servo(&mut pd13, 180, &mut delay);
-            delay.delay_ms(1000 as u16);
+            if pd12.is_high().unwrap(){
+                spin_servo(&mut pd13, 90, &mut delay);
+                delay.delay_ms(1000 as u16);
+                spin_servo(&mut pd13, 0, &mut delay);
+                delay.delay_ms(1000 as u16);
+                spin_servo(&mut pd13, 180, &mut delay);
+                delay.delay_ms(1000 as u16);
+            }
+            
 
             match dht11::Reading::read(&mut delay, &mut pa2) {
                 Ok(dht11::Reading {

@@ -57609,3 +57609,72 @@
 Light: 25
 Temps: 19
 Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 20
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 19
+Temps: 19
+Humid: 93
+ Error
+ 
+Light: 24
+Temps: 0
+Humid: 0
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
+ 
+Light: 25
+Temps: 19
+Humid: 93
+ 
+Light: 24
+Temps: 19
+Humid: 93
